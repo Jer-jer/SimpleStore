@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Store";
+}
+
+@model List<Product>
+
+<div class="d-flex flex-column justify-content-center align-items-center gap-4">
+    <h1 class="display-4">Products</h1>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Product Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (var product in Model)
+                {
+                    <tr>
+                        <td>@product.product_name</td>
+                        <td>@product.cost</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
