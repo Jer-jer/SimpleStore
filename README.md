@@ -1,6 +1,6 @@
 # TallecoTechAssessmentApp
 
-This is a simple .NET 8 MVC web application that will serve as submission for Talleco's Technical Assessment.
+This is a simple .NET 8 MVC web application.
 
 ## Prerequisites
 
